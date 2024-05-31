@@ -67,9 +67,7 @@ function load()
             NetworkPreviousTick = tick(),
             NetworkShouldSleep = false,
             FFlags = {
-                ["DataSenderMaxJoinBandwidthBps"] = getfflag("DataSenderMaxJoinBandwidthBps"),
-                ["PhysicsSenderMaxBandwidthBps"] = getfflag("PhysicsSenderMaxBandwidthBps"),
-                ["S2PhysicsSenderRate"] = getfflag("S2PhysicsSenderRate")
+                
             },
             OriginalVelocity = {},
             RotationAngle = 0
