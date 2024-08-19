@@ -2542,7 +2542,7 @@ function load()
                     Default = 0.1,
                     Min = 0,
                     Max = 60,
-                    Rounding = 10,
+                    Rounding = 100,
                     Compact = false,
                 })
 
