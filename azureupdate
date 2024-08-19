@@ -1356,7 +1356,7 @@ function load()
 
         --// Main Window
         local Window = Library:CreateWindow({
-            Title = "Ratz V99 NiggersK -- farzad, Credits : LineMaster",
+            Title = "LockerX",
             Center = true,
             AutoShow = true,
             TabPadding = 8,
@@ -2541,8 +2541,8 @@ function load()
                     Text = "Random Range",
                     Default = 0.1,
                     Min = 0,
-                    Max = 20,
-                    Rounding = 1,
+                    Max = 60,
+                    Rounding = 10,
                     Compact = false,
                 })
 
@@ -2590,10 +2590,10 @@ function load()
                 end)
 
                 Sections.AntiAim.CSync:AddSlider("CSyncAntiAimTargetStrafeSpeed", {
-                    Text = "Target Strafe Speed",
+                    Text = "Strafe bot speed",
                     Default = 1,
                     Min = 0,
-                    Max = 20,
+                    Max = 110,
                     Rounding = 1,
                     Compact = false,
                 })
@@ -2618,7 +2618,7 @@ function load()
                 Sections.AntiAim.CSync:AddSlider("CSyncAntiAimTargetStrafeHeight", {
                     Text = "Target Strafe Height",
                     Default = 1,
-                    Min = 0,
+                    Min = -10,
                     Max = 20,
                     Rounding = 1,
                     Compact = false,
