@@ -275,7 +275,7 @@ function load()
                     Enabled = false,
                     Color = Color3.new(1, 1, 1)
                 },
-                RandomDistance = 16,
+                RandomDistance = 20,
                 Custom = {
                     X = 0,
                     Y = 0,
@@ -2542,7 +2542,7 @@ function load()
                     Default = 0.1,
                     Min = 0,
                     Max = 60,
-                    Rounding = 100,
+                    Rounding = 1,
                     Compact = false,
                 })
 
